@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-text-theme",
+  "version": "1.0.0",
+  "description": "A clone of jekyll-text-theme in gatsby",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2403772980/gatsby-text-theme"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "yarn run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "author": "2403772980ygy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "gatsby": "^2.24.47",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
