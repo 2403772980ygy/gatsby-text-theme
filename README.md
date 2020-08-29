@@ -1,4 +1,4 @@
-# [WIP]gatsby-text-theme
+# [WIP]gatsby-TeXt-theme
 
 ## Important note: This is NOT a gatsby theme, it is a blog theme
 
