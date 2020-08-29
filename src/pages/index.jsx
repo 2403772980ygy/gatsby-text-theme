@@ -1,16 +1,10 @@
 import React from "react";
-import { graphql } from "gatsby";
-
-export default function Home({data}) {
-return <h1>{data.site.siteMetadata.title}</h1>;
+import Sitedata from "../../data/site-data.yml";
+import Base from "../layouts/base";
+export default function Home() {
+  return (
+    <Base>
+      <h1>{Sitedata.title}</h1>
+    </Base>
+  );
 }
-
-export const query=graphql`
-  query{
-    site{
-      siteMetadata{
-        title
-      }
-    }
-  }
-`
